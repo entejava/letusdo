@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition>  
+ <h:head>  
+ </h:head>
+<h:body>
+   	  		   		
+   <h:form id="idFrmLogin">	
+   <h:panelGrid columns="3">   			
+   <h:outputText value="User Id"/>
+   <h:inputText  value="scott" id="idUser" required="true" requiredMessage="Enter User Id"/>
+   <h:message for="idUser"/>
+   <h:outputText value="Password"/>   			
+   <h:inputSecret value="tiger" id="idPassword" required="true" requiredMessage="Enter Password"/>
+   <h:message for="idPassword"/>
+   </h:panelGrid>   			   				   				   			
+<h:commandButton id="buttonLogin" value="Login"/>	   		
+</h:form>	   		
+ </h:body>  
+</ui:composition>
+</html>
