@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition>     		
+	<h:head>
+            <h:outputStylesheet library="v1" name="css/default.css"  /> 
+	</h:head>  
+<h:body>
+	
+    <div class="container">
+        <div class="nav">
+            <h:graphicImage library="v1" name="img/duke.png" height="100"/>    
+        </div>
+        <div class="content">
+                <h5>main division</h5>
+            	<ui:insert name="main">
+            	<h5>main division override here here</h5>           	                 	
+            	</ui:insert>            	
+        </div>
+        <div class="footer">
+            <h5>Envestnet India Pvt Ltd</h5>
+        </div>
+    </div>    
+	
+</h:body>
+</ui:composition>
+</html>

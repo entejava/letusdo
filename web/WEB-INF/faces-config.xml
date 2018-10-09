@@ -13,10 +13,4 @@
             </navigation-case>					
     </navigation-rule>
     
-    <managed-bean>
-        <managed-bean-name>login</managed-bean-name>
-        <managed-bean-class>demo.jsf.Login</managed-bean-class>
-        <managed-bean-scope>request</managed-bean-scope>
-    </managed-bean>
-    
 </faces-config>

@@ -5,15 +5,14 @@
     xmlns:h="http://java.sun.com/jsf/html"
     xmlns:ui="http://java.sun.com/jsf/facelets">
 
-<ui:composition>  
- <h:head>  
- </h:head>
-<h:body>
-
-    #{login.message}
-    <h:form>
-        <h:commandButton value="home" action="#{login.login}"/>
-    </h:form>
- </h:body>  
+<ui:composition  template="/template/templ_1.xhtml">
+    <ui:define name="main">		
+        <h:head>			
+            <title>end user</title>	
+	</h:head>
+<h:body>	
+    <h1>Home Page - End User</h1>
+</h:body>  
+    </ui:define>        
 </ui:composition>
 </html>
